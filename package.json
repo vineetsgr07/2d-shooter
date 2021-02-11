@@ -1,0 +1,41 @@
+{
+  "name": "2D shooter game",
+  "version": "1.0.0",
+  "description": "Starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-dev-server",
+    "test": "jest"
+  },
+  "keywords": [
+    "es",
+    "6",
+    "webpack",
+    "karma",
+    "jasmine",
+    "vanilla",
+    "js",
+    "js"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^8.0.3",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-dynamic-import-webpack": "^1.0.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "3.x",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-es6-recommended": "^0.1.2",
+    "jest": "^21.2.1",
+    "jest-webpack": "^0.3.0",
+    "regenerator-runtime": "^0.11.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
