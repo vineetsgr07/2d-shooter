@@ -1,0 +1,30 @@
+#main {
+    border: 1px solid black;
+    width: 10000px;
+    position: fixed;
+    transition: 0.5s;
+    transform-origin: right top;
+    height: 100%;
+}
+
+
+.cityBackground {
+    background: url('../assets//depositphotos_117590298-stock-illustration-parallax-ready-game-industrial-background.jpg');
+    border: 1px solid black;
+    background-size: auto;
+    background-size: 20% 100%;
+    z-index: 0;
+    height: 1000px;
+    width: 10000px;
+    position: fixed;
+    white-space: nowrap;
+    transition: 0.5s;
+    background-repeat: repeat-x;
+    display: inline;
+    overflow-x: scroll;
+    overflow-y: auto;
+    white-space: nowrap;
+    transform-origin: right top;
+}
+
+

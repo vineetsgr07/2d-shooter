@@ -1,8 +1,9 @@
 {
-  "name": "2D shooter game",
+  "name": "shooter-game",
   "version": "1.0.0",
   "description": "Starter Kit",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "build": "webpack-dev-server",
     "test": "jest"
