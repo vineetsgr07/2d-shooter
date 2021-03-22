@@ -114,11 +114,15 @@ const movePlayerPosition = (type) => {
 const handleFire = () => {
   if (playerComponent.classList.contains('player-one')) {
     playerComponent.classList.remove('player-one')
-  } else{
-    playerComponent.classList.remove(currentPlayerPosition)    
+  } else {
+    playerComponent.classList.remove(currentPlayerPosition)
   }
   playerComponent.classList.add('player-fire')
   firePower.classList.add('fire-on')
+
+  setTimeout(() => {
+    firePower.classList.remove('fire-on')
+  }, 1000);
 }
 
 const jumpPlayer = () => {

@@ -18,7 +18,7 @@
     width: 10000px;
     position: fixed;
     white-space: nowrap;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     background-repeat: repeat-x;
     display: inline;
     overflow-x: scroll;
